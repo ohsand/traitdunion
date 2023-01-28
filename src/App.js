@@ -1,11 +1,13 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Navbar, Header, Description } from './components';
 import './app.css';
 
 const App = () => {
   return (
     <div id="app">
         <Navbar />
+        <Header />
+        <Description />
     </div>
   )
 }

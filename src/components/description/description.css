@@ -1,0 +1,68 @@
+.ltd__description {
+    background-color: #fff;
+    z-index: 50;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 0 2rem;
+    margin-top: 3rem;
+}
+
+.ltd__description-dividerh {
+    height: 10px;
+    width: 20px;
+    background-color: #D42127;
+    margin: 3rem 4rem;
+}
+
+.ltd__description-dividerv {
+    height: 2px;
+    width: 100px;
+    background-color: #D42127;
+    margin: 1rem 0;
+}
+
+.ltd__description-nous {
+    max-width: 500px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.ltd__description-restaurant {
+    max-width: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.ltd__description-nous h1,
+.ltd__description-restaurant h1 {
+    font-size: 2.5rem;
+}
+
+.ltd__description-nous {
+    text-align: end;
+}
+
+.ltd__description-restaurant {
+    text-align: start;
+}
+
+@media screen and (max-width: 1050px) {
+    .ltd__description {
+        flex-direction: column;
+    }
+    .ltd__description-nous {
+        align-items: flex-start;
+        text-align: start;
+        max-width: 700px;
+    }
+    .ltd__description-restaurant {
+        max-width: 700px;
+    }
+}

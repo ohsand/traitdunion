@@ -1,0 +1,8 @@
+.ltd__header {
+    background-image: url(../../assets/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(122, 122, 122, 0.3);
+    height: 700px;
+}
